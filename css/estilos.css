@@ -1,0 +1,330 @@
+* {
+  /*border: 1px solid red;*/
+  margin: 0px;
+}
+
+/*-------------------------------HEADER----------------------------/*
+
+/*Fuente Inter*/
+@font-face {
+  font-family: "Inter";
+  src: url(../font/Inter-VariableFont_slnt\wght.ttf);
+}
+
+header {
+  background-color: #a3a656;
+  height: 70px;
+}
+
+#menuCabecera {
+  display: inline-block;
+  /*padding-top: 25px;*/
+}
+
+#menuCabecera ul {
+  display: inline-block;
+  list-style-type: none;
+  padding-top: 1.5em;
+  padding-left: 70px;
+}
+#menuCabecera ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding-right: 10px;
+}
+#menuCabecera ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Inter";
+  font-size: 16px;
+}
+#menuCabecera ul li a:hover {
+  color: #ffff00;
+}
+
+#icono {
+  margin: 11px 0px;
+  display: flex;
+  float: inline-end;
+  position: relative;
+  left: 450px;
+}
+#icono a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Inter";
+  font-size: 14px;
+  display: inline;
+  margin: 15px;
+  padding-right: 10px;
+}
+#icono a:hover {
+  color: #ffff00;
+}
+
+#icono i {
+  display: inline;
+  /*padding: 5px;*/
+  /*right: 20px;*/
+}
+#idioma {
+  margin: 16px 0px;
+  display: flex;
+  float: inline-end;
+  position: relative;
+  left: 690px;
+}
+
+#idioma p {
+  font-family: "Inter";
+  font-size: 14px;
+  margin: 10px;
+  padding-left: 5px;
+}
+
+#flecha {
+  margin: 30px 0px;
+  display: flex;
+  float: inline-end;
+  position: relative;
+  left: 800px;
+}
+
+/*-------------------------------MAIN-----------------------------*/
+
+@font-face {
+  font-family: "Romanesco";
+  src: url(/font/Romanesco-Regular.ttf);
+}
+
+main {
+  height: 600px;
+  background-image: url(/images/main.png);
+  background-size: cover;
+}
+
+#titulo1 {
+  font-family: "Romanesco";
+  font-style: normal;
+  font-size: 96px;
+  display: inline-block;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 150px;
+}
+
+.subtitulo {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 32px;
+  margin-left: 150px;
+}
+
+#reservas {
+  height: 100px;
+  background-color: #f2f6f6;
+  font-family: "Inter";
+  padding-left: 250px;
+}
+#cajaReserva {
+  border-radius: 15px 15px;
+  border-color: #f2f6f6;
+  border-style: none;
+  height: 50px;
+  width: 300px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+#cajaCodigo {
+  border-radius: 15px 15px;
+  border-color: #f2f6f6;
+  border-style: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-right: 50px;
+  color: #9e9a9a;
+  padding-left: 10px;
+}
+#ventas {
+  height: 300px;
+}
+
+/*----------------SECCION DE VENTAS DE PRODUCTOS-----------------*/
+#ventas {
+  margin-left: 80px;
+  margin-right: 50px;
+  height: 600px;
+}
+
+#ventas article {
+  display: inline-block;
+  margin-top: 100px;
+  margin-right: 134px;
+  width: 300px;
+}
+#ventas article img {
+  padding: 0px 0px;
+  margin: 0px 0px;
+  width: 300px;
+}
+
+.titulos {
+  background-color: #a3a656;
+  border-radius: 15px 15px 0 0;
+  font-family: "Inter";
+  font-size: 29px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 15px 0px;
+}
+
+.descripcion {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  font-family: "Inter";
+  margin-top: 10px;
+}
+.precio {
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.btnReservar {
+  font-family: "Inter";
+  font-weight: bold;
+  border-radius: 35px 35px;
+  border-style: none;
+  background-color: #a3a656;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  height: 40px;
+  width: 150px;
+  margin-left: 80px;
+}
+.btnReservar:hover {
+  background-color: #384001;
+}
+
+#menuSocios {
+  height: 770px;
+  background-color: #f2f6f6;
+}
+
+#gold {
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  border: 10px solid #384001;
+  background-image: url(/images/gold.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  margin-right: 100px;
+  /*margin-left: 200px;*/
+}
+
+#primero {
+  margin-left: 200px;
+}
+#menuSocios article {
+  margin-top: 125px;
+  display: inline-block;
+  height: 500px;
+  vertical-align: top;
+}
+
+.lista {
+  height: 100px;
+  margin-top: 30px;
+}
+
+#premium {
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  border: 10px solid #384001;
+  background-image: url(/images/premium.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  margin-right: 100px;
+}
+
+#plate {
+  width: 233px;
+  height: 233px;
+  border-radius: 50%;
+  border: 10px solid #384001;
+  background-image: url(/images/plate.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.btnCondiciones {
+  font-family: "Inter";
+  font-weight: bold;
+  border-radius: 35px 35px;
+  border-style: none;
+  background-color: #a3a656;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  height: 50px;
+  width: 250px;
+  margin-top: 50px;
+}
+.btnCondiciones:hover {
+  background-color: #384001;
+}
+
+#menuSocios ul {
+  padding-left: 75px;
+}
+#menuSocios ul li {
+  font-family: "Inter";
+  font-size: 14px;
+}
+
+/* ------------------------------ FOOTER -----------------------------*/
+
+#pie {
+  height: 97px;
+  background-color: #384001;
+}
+#opciones {
+  width: 1000px;
+  margin-left: 70px;
+}
+#opciones ul li {
+  display: inline-block;
+  margin-right: 40px;
+  margin-top: 40px;
+}
+#opciones ul li a {
+  color: #a3a656;
+  font-family: "Inter";
+  text-decoration: none;
+}
+
+#opciones ul li a:hover {
+  color: #ffff00;
+}
+
+#fotos {
+  width: 300px;
+  /*display: flex;*/
+  float: inline-end;
+  position: relative;
+  bottom: 35px;
+  left: 30px;
+}
+#fotos img {
+  margin-right: 40px;
+}
