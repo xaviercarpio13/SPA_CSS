@@ -99,7 +99,7 @@ header {
 
 main {
   height: 600px;
-  background-image: url(images/main.png);
+  background-image: url(SPA_CSS/images/main.png);
   background-size: cover;
 }
 
@@ -222,7 +222,7 @@ main {
   height: 233px;
   border-radius: 50%;
   border: 10px solid #384001;
-  background-image: url(images/gold.png);
+  background-image: url(SPA_CSS/images/gold.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -250,7 +250,7 @@ main {
   height: 233px;
   border-radius: 50%;
   border: 10px solid #384001;
-  background-image: url(images/premium.png);
+  background-image: url(SPA_CSS/images/premium.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
@@ -262,7 +262,7 @@ main {
   height: 233px;
   border-radius: 50%;
   border: 10px solid #384001;
-  background-image: url(images/plate.png);
+  background-image: url(SPA_CSS/images/plate.png);
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
